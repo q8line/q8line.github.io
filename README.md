@@ -8,18 +8,18 @@ iOS &bull; Android &bull; macOS &bull; Linux &bull; Websites &bull; Servers &amp
 
 <br>
 
-[![Visit website](https://img.shields.io/badge/Visit-q8line.github.io-7c5cff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://q8line.github.io)
+[![Visit website](assets/img/badges/visit.svg)](https://q8line.github.io)
 
 <br>
 
-![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-555555?style=flat-square&logo=apple&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Hosting](https://img.shields.io/badge/Hosting-7c5cff?style=flat-square&logo=icloud&logoColor=white)
+<img src="assets/img/badges/ios.svg" alt="iOS" height="37">
+<img src="assets/img/badges/swift.svg" alt="Swift" height="37">
+<img src="assets/img/badges/macos.svg" alt="macOS" height="37">
+<img src="assets/img/badges/dart.svg" alt="Dart" height="37">
+<img src="assets/img/badges/flutter.svg" alt="Flutter" height="37">
+<img src="assets/img/badges/android.svg" alt="Android" height="37">
+<img src="assets/img/badges/linux.svg" alt="Linux" height="37">
+<img src="assets/img/badges/hosting.svg" alt="Hosting" height="37">
 
 </div>
 
@@ -41,6 +41,9 @@ Every project gets its own landing page in English and Arabic, with full legal a
 ```
 /
 ├── index.html              # Home page
+├── assets/
+│   ├── img/                # Favicon and README badges
+│   └── fonts/              # Self-hosted fonts (Inter, IBM Plex Sans Arabic)
 └── <project>/              # One folder per project
     ├── index.html          # Landing page     -> q8line.github.io/<project>/
     ├── privacy/            # Privacy Policy
